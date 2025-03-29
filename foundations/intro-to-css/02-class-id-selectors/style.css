@@ -1,0 +1,18 @@
+.oddNum {
+  background-color: lightcoral;
+  font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#number2 {
+  color: blue;
+  font-size: 36px;
+}
+
+.number3 {
+  font-size: 24px;
+}
+#number4 {
+  color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
