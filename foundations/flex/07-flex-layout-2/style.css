@@ -41,5 +41,37 @@ body{
   padding: 0 16px;
   display: flex;
   align-items: center;
+}
 
+.contentBox{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+  ul{
+    padding: 0;
+    list-style: none;
+    li{
+      margin-bottom: 16px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+  }
+}
+
+.cardsContainer{
+  padding: 24px;
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
 }
