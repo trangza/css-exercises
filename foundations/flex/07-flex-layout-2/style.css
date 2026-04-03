@@ -72,6 +72,17 @@ body{
 .cardsContainer{
   padding: 24px;
   display: flex;
-  flex: 1;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card{
+ width: 300px;
+ padding: 16px;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
 }
